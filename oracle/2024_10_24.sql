@@ -93,12 +93,7 @@ minus
 select department_id
 from employees;
 
---서브쿼리 퀴즈 last_name이 'De Haan'인 직원과 Salary가 동일한 직원에는 누가 있는지 단 행 서브쿼리를 이용해서 출력
-SELECT *
-FROM employees
-WHERE Salary IN (
-    SELECT Salary
-    FROM employees
-    WHERE last_name = 'De Haan'
-)
-AND last_name <> 'De Haan';
+
+
+
+
